@@ -62,9 +62,15 @@ KMeans clustering is used to group houses based on location (longitude and latit
 3. **Clustering**: Apartments are clustered using KMeans, and for each cluster, the model that provides the best prediction is identified.
 4. **Geospatial Mapping**: Predictions and the best model for each cluster are visualized on a map using Folium.
 
+![Geospatial Mapping](images/Clusters_Map.png)
+
 ## Model Comparison
 
 The models are evaluated and compared based on RMSE and R-squared scores. A bar plot is used to visualize the performance of each model, helping to identify the most accurate model.
+
+![Model Comparison using R-squared metric](images/R2.png)
+
+![Model Comparison using RMSE metric](images/RMSE.png)
 
 ## Future Enhancements
 
