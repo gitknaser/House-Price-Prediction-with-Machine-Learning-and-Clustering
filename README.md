@@ -10,7 +10,11 @@ This project predicts house prices using a variety of machine learning models an
 - **Clustering with KMeans**: Apartments are grouped based on location using KMeans, and the best predictive model for each cluster is identified.
 
 ## Dataset
-The dataset used includes features such as house prices, location, and proximity to the ocean.
+
+The dataset used is the California Housing Prices dataset, available on Kaggle:
+[Download here](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
+
+The dataset includes features such as house prices, location, and proximity to the ocean.
 
 ## Libraries Used
 - **Pandas**: For data manipulation and analysis.
